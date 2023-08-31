@@ -1,0 +1,213 @@
+    /* Start of chatGPT CSS code */
+
+    body {
+        font-family: sans-serif;
+        margin: 0;
+        padding: 0;
+        background-color: #efefef; /*I changed the background colour to match it with all the previous pages*/
+    }
+
+    h1 {
+        text-align: center;
+        margin-bottom: 30px; /*Changed the margins to make the form centered*/
+
+    }
+
+    form {
+        margin: 100px auto;
+        width: 400px;
+        padding: 40px 30px;
+        background-color: #fff;
+    }
+    
+
+    label {
+        display: block;
+        margin-bottom: 5px;
+    }
+    
+
+    input[type="number"] {
+        width: 100%;
+        padding: 5px;
+        margin-bottom: 10px;
+        box-sizing: border-box;
+    }
+
+    select {
+        width: 100%;
+        padding: 5px;
+        margin-bottom: 10px;
+        box-sizing: border-box;
+    }
+
+    button {
+        display: block;
+        width: 100%;
+        padding: 10px;
+        margin-top: 10px;
+        color: white;
+        border: none;
+        border-radius: 3px;
+        cursor: pointer;
+    }
+
+    h4{
+      margin: -150px auto;
+      width: 400px;
+      padding: 40px 30px;
+      background-color: #fff;
+      font-size: 18.5px;
+    }
+
+    /* End of chatGPT CSS code */
+
+
+    h5{/*This was added by me*/
+      font-size: 18.5px;
+      margin-top: 30px;
+      text-align: center;
+    }
+
+    /*The following is a mixture from tutorials
+    
+    The nav bar was changed in colour, size to fir the page.
+    the mainbody is also added by me as it is used in the userpage.php as well as the .buttons and .mealbuttons.
+    */
+
+    * {
+        box-sizing: border-box;
+        margin: 0;
+        padding: 0;
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande',
+          'Lucida Sans', Arial, sans-serif;
+      }
+      
+    
+      nav { 
+        width: 100%;
+        height: 80px;
+        background: #003366;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 2rem 150px;
+      }
+      
+      input[type="submit"] {
+        padding: 1rem 5rem;
+        font-size: 1rem;
+        border: none;
+        color: #ffffff;
+        background: #003366;
+        cursor: pointer;
+        border-radius: 50px;
+        margin-left: 30px;
+      }
+    
+    
+      .logo {
+        color: #ffffff;
+        font-size: 2rem;
+        font-weight: bold;
+        font-style: italic;
+        padding: 0 2rem;
+      }
+    
+    
+      nav ul {
+        float: left;
+      }
+    
+      nav ul li{
+        float: left;
+        list-style: none;
+      }
+
+      .toggleBtn{
+        text-decoration: none;
+        color: #ffffff;
+        padding: 0 1.5rem;
+      }  
+    
+
+      
+      nav a {
+        text-decoration: none;
+        color: #ffffff;
+        padding: 0 1.5rem;
+      }
+      
+      nav a:hover {
+        color: #000000;
+      }
+      
+      button {
+        padding: 1rem 5rem;
+        font-size: 1rem;
+        border: none;
+        color: #ffffff;
+        background: #003366;
+        cursor: pointer;
+        border-radius: 50px;
+      }
+      
+      button:hover {
+        background: #000;
+        color: #fff;
+      }
+      
+
+
+.mainbody{
+  text-align: center;
+  margin:50px;
+}
+
+.buttons{
+  width: 400px;
+  text-align: center;
+  margin: 0 auto;
+  margin-top: 100px;
+}
+
+.mealbutton1{
+  width: 400px;
+  text-align: center;
+  margin-top: 30px;
+}
+
+.dropdownmenu {
+  position: relative;
+  display: inline-block;
+}
+
+.dropdownmenu-content {
+  display: none;
+  position: absolute;
+  top: 100%;
+  left: 0;
+  z-index: 1;
+  min-width: 240px;
+  padding: 10px;
+  background-color: #fff;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  border-radius: 4px;
+}
+
+.dropdownmenu:hover .dropdownmenu-content {
+  display: block;
+}
+
+.dropdownmenu-content a {
+  display: block;
+  padding: 5px 0;
+  color: #000;
+  text-decoration: none;
+}
+
+.dropdownmenu-content a:hover {
+  background-color: #efefef;
+}
+      
+      
